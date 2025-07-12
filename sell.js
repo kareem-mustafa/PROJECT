@@ -168,4 +168,7 @@ Swal.fire({
       icon: "error"
     });
   }
+  setTimeout(() => {
+    window.location.href="payment.html"
+  }, 2000);
 });
